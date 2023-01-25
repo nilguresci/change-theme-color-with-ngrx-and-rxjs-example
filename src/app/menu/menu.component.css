@@ -1,0 +1,17 @@
+.listItem {
+  cursor: pointer;
+}
+
+.menuItems ul li {
+  margin: 5px 0 5px 0;
+}
+.menuItems ul li :hover {
+  /* border: 1px solid red;
+  border-radius: 5px;
+  border-color: blueviolet; */
+  font-size: 20px;
+}
+
+.menuItems ul {
+  padding-left: 0;
+}

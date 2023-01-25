@@ -1,0 +1,75 @@
+.homePageOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+}
+.contentBody {
+  background-color: "#ffff";
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.scroller {
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.contentContainer {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.menus {
+  width: 25%;
+}
+
+.formContent {
+  width: 75%;
+}
+
+.formContent .form input {
+  width: 100%;
+  height: 35px;
+}
+
+.formContent .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formContent .buttons .resetBtn {
+  width: 40%;
+  height: 35px;
+}
+.formContent .buttons .submitBtn {
+  width: 40%;
+  height: 35px;
+}
+
+.formBody {
+  width: 75%;
+}
+.side {
+  width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .side {
+    display: none;
+  }
+  .contentBody {
+    width: 100%;
+  }
+  .contentContainer {
+    justify-content: center;
+    width: 75%;
+  }
+  .menus {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+<form class="formContent">
+    <div class="title">Title</div>
+    <div class="form">
+        <input required type="text" [(ngModel)]="input1" id="fname" name="fname"><br><br>
+        <input required type="text" [(ngModel)]="input2" id="fname" name="fname"><br><br>
+        <input required type="text" [(ngModel)]="input3" id="fname" name="fname"><br><br>
+        <input required type="text" [(ngModel)]="input4" id="fname" name="fname"><br><br>
+        <input required type="text" [(ngModel)]="input5" id="fname" name="fname"><br><br>
+    </div>
+    <div class="buttons">
+        <button type="button" class="resetBtn" [disabled]="!input1  && !input2 && !input3 && !input4 && !input5"
+            (click)="reset()" [ngStyle]="{'background-color':  selectedColor }">Reset</button>
+        <a class="button" routerLink="/">
+            <button type="submit" class="submitBtn" [disabled]="!input1  || !input2 || !input3 || !input4 || !input5"
+                [ngStyle]="{'background-color':  selectedColor }">Submit</button>
+        </a>
+
+    </div>
+</form>

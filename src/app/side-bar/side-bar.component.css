@@ -1,0 +1,10 @@
+.sideBar {
+  background-color: "#ffff";
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+.sideBarText {
+  margin-top: 25px;
+  height: 100%;
+}

@@ -1,0 +1,10 @@
+<div class="menuItems">
+    <div class="item"></div>
+    <!-- <div>Current Color: {{ color$ | async }}</div> -->
+    <ul style="list-style-type:none;">
+        <li *ngFor="let color of colors">
+            <a class="listItem" (click)="setColor(color.name)" [ngStyle]="{'color':  color.value }">{{color.name}}</a>
+        </li>
+    </ul>
+
+</div>

@@ -1,0 +1,47 @@
+a {
+  width: 45%;
+  justify-self: self-end;
+  height: 35px;
+}
+
+.submitBtn {
+  width: 100%;
+  height: 100%;
+}
+
+a:hover {
+  background-color: coral;
+}
+
+.resetBtn {
+  width: 45%;
+  justify-self: self-start;
+  height: 35px;
+}
+
+.resetBtn:hover {
+  background-color: red;
+}
+
+.buttons {
+  display: grid;
+  /* column-gap: 151px; */
+  display: grid;
+  /* row-gap: 50px; */
+  grid-template-columns: auto auto;
+  /* gap: 83px 104px; */
+  /* grid-template-columns: 135px 93px 126px; */
+  grid-template-rows: 40px;
+  /* column-gap: 70px; */
+  /* row-gap: 31px; */
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 15px;
+}
+
+.form input {
+  height: 35px;
+}
